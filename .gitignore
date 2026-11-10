@@ -1,0 +1,49 @@
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/.metadata
+app/pubspec.lock
+app/**/*.iml
+app/.idea/
+
+# Android
+app/android/.gradle/
+app/android/local.properties
+app/android/gradlew
+app/android/gradlew.bat
+app/android/gradle/wrapper/gradle-wrapper.jar
+app/android/app/debug/
+app/android/app/release/
+app/android/key.properties
+*.jks
+*.keystore
+
+# Modelo do MediaPipe (baixado pelo script, não versionado)
+app/android/app/src/main/assets/*.task
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Dados de participantes: NUNCA versionar
+dados/
+analysis/dados/
+*.csv
+!analysis/exemplos/*.csv
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
